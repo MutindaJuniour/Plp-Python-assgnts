@@ -1,11 +1,11 @@
-# Asking user for their name and storing it in a variable called "name"
-name = input("Enter your name here? ")
+#prompt thw user to enter his/her name
+name=input("Enter your name")
 
-# Asking user for their age and storing it in a variable called "age"
-age = input("How old are you? ")
+#prompt the user to enter their age
+age=input("Enter your age")
 
-# Asking user for their location and storing it in a variable called "location"
-location = input("Where are you located? ")
+#prompt the user to enter their location
+location=input("Emter your location")
 
-# Printing out a personalized message using the user's name, age, and location
-print(f"Hello {name}, you are {age} years old and live in {location}.")
+#print out a personalized message
+print("Hi,I'm {},aged {} and living in {}.".format(name,age,location))
